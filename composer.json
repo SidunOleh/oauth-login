@@ -1,0 +1,23 @@
+{
+    "name": "sova/oauth-login",
+    "description": "Login with OAuth",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Sova\\OAuthLogin\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "Oleh Sidun",
+        "email": "sidunoleh@gmail.com"
+    }],
+    "minimum-stability": "stable",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sova\\OAuthLogin\\OAuthServiceProvider"
+            ]
+        }
+    }
+}
