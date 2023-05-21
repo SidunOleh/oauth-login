@@ -23,10 +23,10 @@ class OAuthServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadMigrationsFrom(__DIR__.'./database/migrations');
+        $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
+        $this->loadMigrationsFrom(__DIR__ . '/database/migrations');
         $this->publishes([
-            './config/oauth.php' => config_path('oauth.php'),
+            __DIR__ . '/config/oauth.php' => config_path('oauth.php'),
         ]);
-        $this->loadRoutesFrom('./routes/web.php');
     }
 }
