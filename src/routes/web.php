@@ -1,6 +1,5 @@
 <?php
 
-use Sova\OAuthLogin\Controllers\OAuthLoginController;
 use Illuminate\Support\Facades\Route;
 use Sova\OAuthLogin\Controllers\OAuthController;
 
