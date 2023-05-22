@@ -3,10 +3,10 @@
 namespace Sova\OAuthLogin\Providers;
 
 use App\Models\User;
-use Sova\OAuthLogin\Providers\IOAuthProvider;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\Http;
+use Sova\OAuthLogin\Providers\Interface\IOAuthProvider;
 
 abstract class AbstractOAuthProvider implements IOAuthProvider
 {

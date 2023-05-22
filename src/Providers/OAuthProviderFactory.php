@@ -3,6 +3,7 @@
 namespace Sova\OAuthLogin\Providers;
 
 use Sova\OAuthLogin\Exceptions\OAuthException;
+use Sova\OAuthLogin\Providers\Interface\IOAuthProvider;
 
 class OAuthProviderFactory
 {

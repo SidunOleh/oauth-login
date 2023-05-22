@@ -1,6 +1,6 @@
 <?php
 
-namespace Sova\OAuthLogin\Providers;
+namespace Sova\OAuthLogin\Providers\Interface;
 
 use App\Models\User;
 use Illuminate\Http\RedirectResponse;
