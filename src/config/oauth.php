@@ -7,15 +7,15 @@ return [
         'google' => [
             'client_id' => '',
             'client_secret' => '',
-            'scope' => '',
-            'redirect_uri' => '',
+            'scope' => 'https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile',
+            'redirect_uri' => route('oauth.callback', ['provider' => 'google']),
         ],
     
         'github' => [
             'client_id' => '',
             'client_secret' => '',
-            'scope' => '',
-            'redirect_uri' => '',
+            'scope' => 'read:user',
+            'redirect_uri' => route('oauth.callback', ['provider' => 'github']),
         ],
     ],
 ];
