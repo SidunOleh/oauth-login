@@ -4,9 +4,8 @@
 php artisan migrate
 ```
 
-```
 set providers credentials in config/oauth.php
-
+```
 php artisan vendor:publish
 ````
 
